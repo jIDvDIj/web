@@ -1,0 +1,43 @@
+.card {
+    max-width: 400px;
+    min-width: 250px;
+    max-height: 200px;
+    min-height: 150px;
+    padding: 10px;
+    margin: 20px;
+    font-size: 16px;
+    color: #343;
+    display: flex;
+    align-items: center;
+    border: 5px solid #ccc;
+    border-radius: 15px;
+    overflow: hidden; /* Impede que o texto longo ultrapasse o cartão */
+  }
+  
+  .card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .card .info {
+    flex: 1;
+    overflow-y: auto; /* Adiciona uma barra de rolagem apenas na descrição */
+  }
+  
+  .card h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+  }
+  
+  .card p {
+    margin: 5px 0;
+  }
+  
+  .card a {
+    color: green;
+    text-decoration: none;
+  }
+  
